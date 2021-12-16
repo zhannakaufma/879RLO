@@ -24,5 +24,5 @@ The Python Autograder was built off of https://github.com/gradescope/autograder_
 ### _python_autograder_ directory
 This is the java autograder, which was zipped and uploaded to gradescope for the python version of the assignment. <br />
 For the java autograder to work locally, make sure to add the MountainClimbing.java solution file into the **_java_autograder/src/main/java/mountainclimbing_** directory.  <br />
-Also, in the **_java_autograder/run_autograder_** file, comment out lines 9 and 15, and uncomment line 16.
+Also, in the **_java_autograder/run_autograder_** file, comment out lines 3, 9 and 15, and uncomment line 16.
 The Java Autograder was built off of https://github.com/gradescope/autograder_samples/tree/master/java
