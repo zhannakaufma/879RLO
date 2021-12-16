@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/mountain_climbing.py /autograder/source/mountain_climbing.py
+
+cd /autograder/source
+
+python3 run_tests.py
