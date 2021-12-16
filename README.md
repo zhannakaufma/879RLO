@@ -17,8 +17,12 @@ These are the expected solutions to the problem, which pass all test cases in th
 
 ### _python_autograder_ directory
 This is the python autograder, which was zipped and uploaded to gradescope for the python version of the assignment. <br />
-The Python Autograder was built off of https://github.com/gradescope/autograder_samples/tree/master/python/src
+For the python autograder to work locally, make sure to add the mountain_climbing.py solution file into the **_python_autograder_** directory.  <br />
+When uploading to gradescope, make sure to zip so that the zip file is called autograder and all files and directories in **_python_autograder_** are at its root.  <br />
+The Python Autograder was built off of https://github.com/gradescope/autograder_samples/tree/master/python/src  <br />
 
 ### _python_autograder_ directory
 This is the java autograder, which was zipped and uploaded to gradescope for the python version of the assignment. <br />
+For the java autograder to work locally, make sure to add the MountainClimbing.java solution file into the **_java_autograder/src/main/java/mountainclimbing_** directory.  <br />
+Also, in the **_java_autograder/run_autograder_** file, comment out lines 9 and 15, and uncomment line 16.
 The Java Autograder was built off of https://github.com/gradescope/autograder_samples/tree/master/java
